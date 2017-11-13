@@ -25,25 +25,71 @@
   width: 80%;
   border: 2px solid lightblue;
   background-color: white;
-  align-items: center;
 }
 
 .innerburger img {
   position: absolute;
   height: 100px;
   width: auto;
-  display: block;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+h3 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -85%);
+  width: 100%;
+}
+
+.innerburger p {
+  position: absolute;
+  bottom: 20%;
+  transform: translate(0, 80%);
+  text-align: left;
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 15px;
 }
 
 .otherbox {
   position: absolute;
   width: 500px;
   height: 350px;
-  border: 2px dashed red;
+  border: 2px solid #be6af7;
   top: 50%;
   right: 13%;
   transform: translate(0, -50%);
+}
+
+.upper-inner-otherbox {
+  position: relative;
+}
+
+.letters {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.numbers-span {
+  float: right;
+  bottom: 50%;
+  transform: translate(0, -50%);
+}
+
+.numbers {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.lower-inner-otherbox {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  border-top: 2px solid #be6af7;
+  bottom: 0;
 }
