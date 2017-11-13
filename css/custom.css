@@ -7,24 +7,41 @@
 
 .burgerbox {
   position: absolute;
-  width: 25%;
-  height: 35%;
-  border: 4px dotted blue;
+  width: 350px;
+  height: 350px;
+  background-color: gray;
   text-align: center;
   top: 50%;
   left: 13%;
   transform: translate(0, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.burgerbox img {
+.innerburger {
+  position: relative;
+  height: 80%;
+  width: 80%;
+  border: 2px solid lightblue;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.innerburger img {
+  position: absolute;
   height: 100px;
   width: auto;
+  display: block;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .otherbox {
   position: absolute;
-  width: 45%;
-  height: 35%;
+  width: 500px;
+  height: 350px;
   border: 2px dashed red;
   top: 50%;
   right: 13%;
